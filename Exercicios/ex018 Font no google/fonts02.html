@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fontes Externas</title>
+  <style>
+      @font-face {
+        font-family: 'old';
+        src: url('OldLondonAlternate.ttf') format('truetype'),url('Olondona.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+
+        /*
+          Tipos de forma()
+          - opentype (otf)
+          - truetype (ttf)
+          - embedded-opentype
+          - truetype-aat (Apple Advanced Typography)
+          - svg
+        */
+
+      }
+      body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      h1{
+        font-family: 'old', Courier, monospace;
+        font-weight: normal;
+        text-align: center;
+        font-size: 5em;
+      }
+
+  </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos tempore saepe quisquam quam! Consequuntur repellat enim excepturi ea ipsam necessitatibus, vitae voluptate recusandae blanditiis illum adipisci? Fugiat ratione atque alias?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro perspiciatis perferendis beatae excepturi rem corporis nam nemo veritatis sunt vel dolore quia assumenda praesentium voluptatum, nihil facere! Eligendi, voluptate libero.</p>
+</body>
+</html>
