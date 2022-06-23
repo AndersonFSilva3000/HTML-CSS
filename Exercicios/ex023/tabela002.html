@@ -26,6 +26,7 @@
         width: 400px;
         border-collapse: collapse;
         margin: auto;
+        position: relative;
       }
 
       th, td {
@@ -54,6 +55,12 @@
       tfoot {
         background-color: gray;
         color: white;
+      }
+
+      thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: gray;
       }
   </style>
 </head>
